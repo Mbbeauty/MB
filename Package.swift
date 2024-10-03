@@ -135,7 +135,7 @@ extension Target {
     }
 
     static func remoteBinaryURLString(for targetName: String) -> String {
-        "https://github.com/facebook/facebook-ios-sdk/releases/download/v17.3.0/\(targetName)-Dynamic_XCFramework.zip"
+
     }
 
     static let basics = target(
@@ -188,32 +188,32 @@ extension Target {
     enum Prefixed {
         static let basics = binaryTarget(
             name: .Prefixed.basics,
-            remoteChecksum: "f0366e8707b67218dd53c397ef7e6af2b0d474d4602d8d9f7ef3b0b304d4c7ca"
+
         )
 
         static let aem = binaryTarget(
             name: .Prefixed.aem,
-            remoteChecksum: "7964bbed560c3e37620b55f5f4f043e350870ac6c5eb1b16075b84e9ea24c994"
+
         )
 
         static let core = binaryTarget(
             name: .Prefixed.core,
-            remoteChecksum: "90746593cd49c88909faaf80539858ec3513228d4ea8ea0e1ccdabf11ddf5edf"
+
         )
 
         static let login = binaryTarget(
             name: .Prefixed.login,
-            remoteChecksum: "5b644bdb33e9e30e26cf60dc456f0e04eed53f87d7d9c890f178f0353eed3ab7"
+
         )
 
         static let share = binaryTarget(
             name: .Prefixed.share,
-            remoteChecksum: "93b997c9ecdf5417dfe1ed67a74375704a998772b1f2c609dafabd88f5f032ac"
+remoteChecksum: "93b997c9ecdf5417dfe1ed67a74375704a998772b1f2c609dafabd88f5f0
         )
 
         static let gamingServices = binaryTarget(
             name: .Prefixed.gaming,
-            remoteChecksum: "0b034a30ed5a033a2f89337d464f34d852bc27507a89fba0ef721130a3d932ea"
+
         )
     }
 }
